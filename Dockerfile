@@ -1,4 +1,4 @@
-FROM registry.redhat.io/ubi8/ubi:latest
+FROM fedora:latest
 USER 0
 RUN dnf install iostat   -y
 USER 1001
