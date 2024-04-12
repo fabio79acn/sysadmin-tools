@@ -1,5 +1,5 @@
 FROM fedora:latest
 USER 0
-RUN dnf install dstat iotop parted  pcp-system-tools pcp-doc sysstat -y
+RUN dnf install dstat parted  pcp-system-tools pcp-doc procps-ng perf psmisc hostname iproute sysstat iotop -y
 USER 1001
 CMD ["sleep","infinity"]
