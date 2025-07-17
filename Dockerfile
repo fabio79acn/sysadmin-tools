@@ -12,3 +12,6 @@ RUN rm  -f     openshift-client-linux-amd64-rhel9-4.19.3.tar.gz
 USER 1001
 CMD ["tail", "-f", "/dev/null"]
 #CMD ["sleep","infinity"]
+
+
+
